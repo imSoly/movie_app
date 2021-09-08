@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navigation.css";
 
 export default function Navigation() {
   return (
-    <div>
+    <div className="navigationContainer">
       <Link to="/">Home</Link>
-      <Link to="/Linkbout">About</Link>
+      <Link to="/about">About</Link>
     </div>
   );
 }
