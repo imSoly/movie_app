@@ -12,7 +12,7 @@ export default function App() {
       <Navigation />
       <Route path="/" exact component={Home} />
       <Route path="/about" component={About} />
-      <Route path="/movie-detail" component={Detail} />
+      <Route path="/movie/:id" component={Detail} />
     </HashRouter>
   );
 }
